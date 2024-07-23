@@ -1,0 +1,122 @@
+
+
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Comandos de Git</title>
+    <link href="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css" rel="stylesheet">
+    <style>
+        body {
+            background-color: #e3f2fd; 
+        }
+        .navbar, .footer {
+            background-color: #81d4fa; 
+        }
+        .card {
+            border: none;
+            box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+        }
+        .card-header {
+            background-color: #29b6f6; 
+            color: white;
+        }
+    </style>
+</head>
+<body>
+  
+    <nav class="navbar navbar-expand-lg navbar-light">
+        <a class="navbar-brand" href="#">Comandos de Git</a>
+        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarNav">
+            <ul class="navbar-nav ml-auto">
+                <li class="nav-item active">
+                    <a class="nav-link" href="#">Inicio</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="#git-basics">Básicos</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="#git-branching">Branching</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="#git-remote">Remotos</a>
+                </li>
+            </ul>
+        </div>
+    </nav>
+
+   
+    <div class="container mt-5" id="git-basics">
+        <h2>Comandos Básicos de Git</h2>
+        <div class="card mt-3">
+            <div class="card-header">git init</div>
+            <div class="card-body">
+                <p>Inicializa un nuevo repositorio de Git.</p>
+                <pre><code>git init</code></pre>
+            </div>
+        </div>
+        <div class="card mt-3">
+            <div class="card-header">git status</div>
+            <div class="card-body">
+                <p>Muestra el estado del repositorio de trabajo y el área de preparación.</p>
+                <pre><code>git status</code></pre>
+            </div>
+        </div>
+        
+
+    <!-- Sección de branching -->
+    <div class="container mt-5" id="git-branching">
+        <h2>Comandos de Branching en Git</h2>
+        <div class="card mt-3">
+            <div class="card-header">git branch</div>
+            <div class="card-body">
+                <p>Lista, crea o elimina ramas.</p>
+                <pre><code>git branch</code></pre>
+            </div>
+        </div>
+        <div class="card mt-3">
+            <div class="card-header">git checkout</div>
+            <div class="card-body">
+                <p>Cambia a una rama específica.</p>
+                <pre><code>git checkout nombre-de-la-rama</code></pre>
+            </div>
+        </div>
+        
+    </div>
+
+    <!-- Sección de comandos remotos -->
+    <div class="container mt-5" id="git-remote">
+        <h2>Comandos Remotos de Git</h2>
+        <div class="card mt-3">
+            <div class="card-header">git remote</div>
+            <div class="card-body">
+                <p>Gestiona los repositorios remotos.</p>
+                <pre><code>git remote</code></pre>
+            </div>
+        </div>
+        <div class="card mt-3">
+            <div class="card-header">git fetch</div>
+            <div class="card-body">
+                <p>Descarga los objetos y referencias de otro repositorio.</p>
+                <pre><code>git fetch</code></pre>
+            </div>
+        </div>
+     
+
+  
+    <footer class="footer mt-5 py-3">
+        <div class="container text-center">
+            <span class="text-muted">© 2024 Rafael Castro</span>
+        </div>
+    </footer>
+
+
+    <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.5.4/dist/umd/popper.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
+</body>
+</html>
